@@ -1,0 +1,21 @@
+docker pull postgres
+docker run -itd -e POSTGRES_USER=alej1286 -e POSTGRES_PASSWORD=123456789 -p 5432:5432 -v /data:/var/lib/postgresql/data --name postgresql postgres
+docker exec -it postgresql bash
+PGPASSWORD=123456789 psql -U alej1286
+
+CREATE DATABASE todos;
+//Enter command \l to get a list of all databases
+
+npm init -y
+npm i typescript @types/node ts-node ts-node-dev -D
+npm i express dotenv
+npm i sequelize pg pg-hstore
+
+tsc --init
+
+npm i sequelize-cli -D
+
+npx sequelize-cli init
+
+npm i --save-dev @types/express
+
