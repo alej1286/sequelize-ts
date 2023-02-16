@@ -19,3 +19,8 @@ npx sequelize-cli init
 
 npm i --save-dev @types/express
 
+//generating model
+npx sequelize-cli model:generate --name User --attributes name:string
+
+npm i uuid
+npm i --save-dev @types/uuid
