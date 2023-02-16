@@ -1,3 +1,4 @@
 export const projects = [
-  //Add projects here
-]
+  { title: "testing title", status: "active" },
+  { title: "testing title 2", status: "active" },
+];

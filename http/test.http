@@ -1,0 +1,6 @@
+# baseURL
+@baseURL = http://localhost:5000
+
+###
+# Find All Todos
+GET {{ baseURL }}/
